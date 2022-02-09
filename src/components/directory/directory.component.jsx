@@ -1,4 +1,9 @@
 import React from "react";
+import hatsImg from "../../assets/images/hats.png";
+import jacketsImg from "../../assets/images/jackets.png";
+import menImg from "../../assets/images/men.png";
+import sneakersImg from "../../assets/images/sneakers.png";
+import womensImg from "../../assets/images/womens.png";
 
 import MenuItem from "../menu-item/menu-item.component";
 
@@ -8,30 +13,26 @@ const Directory = () => {
   const sections = [
     {
       title: "hats",
-      imageUrl:
-        "https://i.pinimg.com/564x/39/f3/23/39f3238b5ea7039732fd4b034d97ad87.jpg",
+      imageUrl: hatsImg,
       id: 1,
       linkUrl: "hats",
     },
     {
       title: "jackets",
-      imageUrl:
-        "https://i.pinimg.com/736x/c8/73/65/c873651d521787b532b2ab9eeeb4031c.jpg",
+      imageUrl: jacketsImg,
       id: 2,
       linkUrl: "jackets",
     },
     {
       title: "sneakers",
-      imageUrl:
-        "https://i.pinimg.com/564x/a1/34/cd/a134cdeb9014c11652f491ebad33c08f.jpg",
+      imageUrl: sneakersImg,
       id: 3,
       linkUrl: "sneakers",
     },
     {
       title: "womens",
       // imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-      imageUrl:
-        "https://i.pinimg.com/564x/4d/de/98/4dde9895cdf720b0c0cec89d6675d52c.jpg",
+      imageUrl: womensImg,
       size: "large",
       id: 4,
       linkUrl: "womens",
@@ -39,8 +40,7 @@ const Directory = () => {
     {
       title: "mens",
       // imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-      imageUrl:
-        "https://i.pinimg.com/564x/0e/21/7b/0e217be4dd10fc82179d47c4f7c24c0c.jpg",
+      imageUrl: menImg,
       size: "large",
       id: 5,
       linkUrl: "mens",
